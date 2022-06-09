@@ -30,4 +30,7 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-# TODO: your code here
+n = float(input("Цена единицы товара:"))
+
+for i in range(1, 21, 1):
+    print(i, format((i * n),'.2f'), "Rub.")
