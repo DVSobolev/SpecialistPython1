@@ -4,9 +4,14 @@
 
 text = "Вася самый умный! Вася лучше всех! И ждет его успех! Вот так!"
 
-# TODO: your code here
+new_text = text.replace("!", ".")
 
-print(text)
+print(new_text)
 
 # Важно! Ваше решение должно работать не только с данной строкой, но и слюбой другой.
 # Проверьте это, заменив текст примера на любой другой.
+
+test_text = "Я ! Программирую ! на python!!!"
+
+test_text = test_text.replace("!", ".")
+print(test_text)
