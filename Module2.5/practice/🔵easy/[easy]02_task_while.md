@@ -14,15 +14,9 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+n = int(input("n:"))
+i = 0
 
----
-
-### Подсказки
-
-<details>
-<summary>Подсказка-1</summary>
-Смотрите в примерах "Вывод чисел в диапазоне [a, b]"
-</details>
+while n > i:
+    print(n)
+    n -= 1
