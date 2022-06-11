@@ -14,17 +14,9 @@
 
 ### Решение задачи
 
-```python
-n = int(input("n: "))
+n = int(input("n:"))
+count = 0
 
-# TODO: you code here...
-```
-
----
-
-### Подсказки
-
-<details>
-<summary>Подсказка-1</summary>
-Смотрите в примерах "Выполнение цикла n раз"
-</details>
+while n > count:
+    print("Я учу питон")
+    count += 1
