@@ -21,5 +21,11 @@
 a = int(input("a: "))
 b = int(input("b: "))
 
-# TODO: you code here...
-```
+list1 = []
+while a > b:
+    if b % 5 == 0:
+        list1.append(b)
+    b += 1
+list2 = list1
+list2 = list1[::-1]
+print(*list2, sep="\n")
