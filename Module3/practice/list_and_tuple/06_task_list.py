@@ -4,4 +4,6 @@
 first_number = int(input())     # Первое число
 second_number = int(input())    # Второе число
 
-# TODO: your code here
+for number in range(first_number, second_number):
+    if number % 3 == 0:
+        print(number)
